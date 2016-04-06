@@ -7,11 +7,11 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   
-  get '/other_side' do
+  get '/denise' do
     erb :index
   end
   
-  post '/other_side' do
+  post '/denise' do
     erb :other_side
   end
 
